@@ -25,7 +25,7 @@ for story in stories:
                 "content": f"For each story, identify the people, places, and organizations in the following text: {story['content']}. No yapping.",
             }
         ],
-        model="llama3-70b-8192",
+        model="meta-llama/llama-4-scout-17b-16e-instruct",
     )
     # Print the result for each story
     print(chat_completion.choices[0].message.content)
