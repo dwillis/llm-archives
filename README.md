@@ -19,7 +19,3 @@ Then type: python get_stories.py
 You should see a file called cns_maryland_posts.json appear. Let's look at it. It contains some details of the past 10 CNS stories.
 
 Back in the Terminal, type: python entity_extraction.py and watch the output.
-
-### Evaluation for JOUR389W
-
-PUT YOUR EVALUATION HERE
